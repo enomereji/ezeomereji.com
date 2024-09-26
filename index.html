@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<title>Eze's Portfolio Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="images/Eze.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Eze Omereji.</h1>
+    <p>Software Developer.</p>
+    <img src="images/Eze.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Eze Omereji</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I am a Developer with a keen interest in data analysis, machine learning, and software development. My journey into the world of programming began with a curiosity to understand how things work behind the scenes. Over the years, I have honed my skills through hands-on experience and continuous learning, allowing me to tackle a wide range of challenges with confidence and creativity.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Software Development</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Machine Learning</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Data Analysis</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Databases</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">2</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">15+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">2+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <a href="./cv/Eze Omereji - Backend Resume.pdf" download="cv/Eze Nyeche Omereji (Data Scientist).pdf">
+        <i class="fa fa-download"></i> Download Resume
+      </a>
+    </button>
+    
+    <!-- Grid for projects -->
+    <h3 class="w3-padding-16 w3-text-light-grey" id="projects">My Projects</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom w3-extra-margin">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Historical Weather API</li>
+          <li class="w3-padding-16">A Python application that fetches real-time weather data using an API. Users can input a city or location to retrieve current weather conditions, temperature, humidity, and wind speed. The app displays the information in a user-friendly format, providing valuable weather updates for travelers or daily use.</li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">
+              <a href="https://github.com/enomereji/historical-weather-api.git" target="_blank">Github</a>
+          </button>
+          </li>
+        </ul>
+      </div>
+    <div class="w3-half w3-margin-bottom w3-extra-margin">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Natural Language Processing</li>
+          <li class="w3-padding-16">The Book Analysis project leverages the power of Natural Language Processing (NLP) techniques to extract meaningful insights from textual data found in books. Using Python, this project aims to analyze the content of books, identify key themes, sentiments, and stylistic elements, and provide valuable insights for literary analysis, research, and recommendation purposes.</li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">
+              <a href="https://github.com/enomereji/book-analysis-using-re-nltk.git" target="_blank">Github</a>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom w3-extra-margin">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Job Application Web App</li>
+            <li class="w3-padding-16">The Job Application Web Application is a dynamic platform designed to simplify and streamline the job application process for both job seekers and employers. Built using Python, this web application offers a user-friendly interface and powerful features to connect job seekers with relevant job opportunities and assist employers in efficiently managing job postings and applicant tracking.</li>
+            <li class="w3-light-grey w3-padding-24">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">
+                <a href="https://github.com/enomereji/job-application-web-app-flask.git" target="_blank">Github</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w3-half w3-margin-bottom w3-extra-margin">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Student Management App</li>
+            <li class="w3-padding-16">The Student Management Application is a comprehensive tool designed to streamline administrative tasks and enhance communication between educators, students, and parents in educational institutions. Built using Python, this application offers a user-friendly interface and robust functionality to manage student records, track academic progress, and facilitate efficient communication.</li>
+            <li class="w3-light-grey w3-padding-24">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">
+                <a href="https://github.com/enomereji/student-mgmt-system.git" target="_blank">Github</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Grid/Projects -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">Testimonials</h3>  
+    <img src="images/WhatsApp Image 2024-04-02 at 14.33.11_6f74bcc0.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px; object-fit: cover; border-radius: 50%;">
+    <p><span class="w3-large w3-margin-right w3-black">Shane Kwesi Mensah.</span></p>
+    <div>CEO at ShaneCodesWell.</p>
+    </div> 
+    <div class="w3-container w3-justify">
+      <p>Working with Eze has been a delight. His Python skills are top-notch, and his attention to detail is impressive. Eze's ability to tackle complex problems with ease makes him a valuable asset to any project.  I highly recommend Eze for Python development work!.</p><br>
+    </div>
+    
+    <img src="images/WhatsApp Image 2024-04-02 at 15.12.13_cd828b8c.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px; height: 80px; object-fit: cover; border-radius: 50%;">
+    <p><span class="w3-large w3-margin-right w3-black">Uti Daniel.</span></p> 
+    <div>
+      <p>Manager at Devzyners Company.</p>
+    </div>
+    <div class="w3-container w3-justify">
+      <p>Eze Omereji is a patient and humble student and Teacher who loves to learn and impart knowledge with an unmatchd zeal and dedication to assigned tasks.</p>
+    </div>
+  <!-- End About Section -->
+  </div>
+  
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Rivers, Nigeria</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +234 7038219777</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: enomereji@gmail.com</p>
+    </div><br>
+    
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://github.com/enomereji"> 
+    <i class="fa fa-github w3-hover-opacity"></i>
+  </a>
+   
+    <a href="https://www.linkedin.com/in/eze-omereji/"> 
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </a>
+
+  <a href="https://x.com/ezeomereji"> 
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </a>
+
+
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
